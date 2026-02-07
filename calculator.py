@@ -1,0 +1,5 @@
+a=int(input("Enter a number: "))
+b=input("Enter a number: ")
+#r=int(a) + int(b)
+r1=a + float(b)
+print(r1)

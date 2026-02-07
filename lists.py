@@ -1,0 +1,25 @@
+friends = ["Ashmit", "Jotisman", "Adesh", "Anirudh", "Ashutosh"]
+lucky_numbers=[11, 10, 2, 23, 8]
+friends[1]= "Jyotika"
+print(friends[0]) 
+print(friends[-1]) #acesses from back of the list with starting index as -1 
+print(friends[1:3]) 
+friends.reverse()
+print(friends)
+friends.extend(lucky_numbers)
+friends.append(lucky_numbers)
+friends.append("Nihir")
+friends.insert(1, "Sayan")
+friends2=friends.copy()
+print(friends2)
+friends.remove("Jyotika")
+friends.pop()
+#friends.clear()
+print(friends)
+friends.append("Ashmit")
+print(friends.index("Anirudh"))
+print(friends.count("Ashmit"))
+lucky_numbers.sort()
+print(lucky_numbers)
+lucky_numbers.reverse()
+print(lucky_numbers)
