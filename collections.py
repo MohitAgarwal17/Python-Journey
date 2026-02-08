@@ -37,7 +37,7 @@
 
 # TUPLES
 
-fruits = ("apple", "orange", "banana", "coconut")
+# fruits = ("apple", "orange", "banana", "coconut")
 # print(dir(fruits))
 # print(help(fruits))
 # print(len(fruits))
