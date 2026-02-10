@@ -46,6 +46,7 @@ def main():
     is_running = True
 
     while is_running:
+        # if wrong_guesses > 0:
         display_man(wrong_guesses)
         display_hint(hint)
         guess = input("Enter a letter: ").lower()
